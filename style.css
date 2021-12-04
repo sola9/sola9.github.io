@@ -1,0 +1,73 @@
+@font-face{
+    font-family: alagard;
+    src: url(assets/alagard_by_pix3m-d6awiwp.ttf); 
+}
+@font-face{
+    font-family: romulus;
+    src: url(assets/_bitmap_font____romulus_by_pix3m-d6aokem.ttf); 
+}
+.header {
+    background-color: #222323 ;
+    width: 100%;
+    color:white;
+    margin:0px;
+}
+body{
+    margin: 0px;
+    background-color:floralwhite;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding: 3%;
+}
+.main{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #222323;
+}
+h2{
+    text-align: center;
+    font-family: alagard;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+p{
+    font-family: romulus;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.footer{
+    background-color: #222323;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.invert_color{
+    color:floralwhite;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    color: #222323;
+    margin-bottom: 20px;
+    border: 4px solid #222323;
+}
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: romulus;
+    font-size: 25px;
+}
+a:link{
+  color:#efd893;  
+}
+a:visited{
+    color:#dc9471;
+}
