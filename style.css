@@ -40,12 +40,13 @@ p{
     font-size: 25px;
     margin-top: 15px;
 }
-@media screen and (max-width:769px){body{font-size:16px;}}
 .footer{
     background-color: #222323;
     margin-bottom: 0px;
     padding-top: 1px;
     padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .invert_color{
     color:floralwhite;
@@ -71,4 +72,15 @@ a:link{
 }
 a:visited{
     color:#dc9471;
+}
+@media screen and (max-width:769px){
+    th,td,p{
+       font-size:23px; 
+    }
+    h2{
+        font-size: 32px;
+    }
+    .main{
+        padding-left: 7%;
+        padding-right: 7%;}
 }
