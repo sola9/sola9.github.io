@@ -71,7 +71,7 @@ a:link{
   color:goldenrod;  
 }
 a:visited{
-    color:mediumpurple;
+    color:darkgoldenrod;
 }
 @media screen and (max-width:769px){
     th,td,p{
